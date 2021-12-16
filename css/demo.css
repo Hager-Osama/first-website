@@ -1,0 +1,766 @@
+/*----------- start basic classes--------------*/
+body
+{
+    font-family:system-ui;
+    margin: 0;
+}
+.container
+{
+    width: 85%;
+    margin: auto;
+}
+.color
+{
+    color: #106eea;
+}
+button
+{
+    padding: 13px 30px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    background-color: #106eea;
+    border-radius:6px;
+    font-family: -webkit-pictograph;  
+    text-transform: uppercase;
+    transition: 1s all;
+}
+/*----------- end basic classes--------------*/
+/*----------- start nav -------------------*/
+nav
+{
+    
+}
+nav .container
+{
+ display: flex;
+ justify-content: space-between;
+}
+nav .container .logo
+{
+  margin-top:18px;   
+}
+nav .container .logo span
+{
+  font-size: 33px  ;
+  font-weight: bold;
+}
+nav .container .links
+{
+  width: 55%;  
+}
+nav .container .links ul
+{
+ list-style: none;
+    display: flex;   
+}
+nav .container .links ul li
+{
+  padding:2%;   
+}
+nav .container .links ul li a
+{
+ text-decoration: none ;
+ color: black;
+ transition: 0.5s all;
+ position: relative;
+}
+nav .container .links ul li a::before
+{
+	content: '';
+	width: 0%;
+	height: 3px;
+	background-color: #106eea;
+	position: absolute;
+	bottom: -5px;
+	transition: 1s all;
+}
+nav .container .links ul li a:hover::before
+{
+	width: 100%;
+}
+nav .container .links ul li a:hover
+{
+  color: #106eea;
+  font-weight: bold;
+}
+/*----------- end nav -------------------*/
+/*-----------------------------start header-------------------*/
+ header
+{
+ background-image: url(../image/hero-bg.jpg)  ;
+ background-attachment: fixed;
+ height: 600px;
+}
+header .opacity
+{
+ background-color: #b8d2f585;
+ height: 600px;
+}
+header .container
+{
+ display: flex;
+ align-items: center; 
+ height: 100%
+}
+header .container .text
+{
+ 
+}
+header .container .text h1
+{
+ font-size: 36px;   
+}
+header .container .text p:first-of-type
+{
+  font-size:28px;  
+}
+header .container .text button
+{
+    padding: 13px 30px;
+    border: none;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    background-color: #106eea;
+    border-radius:6px;
+    font-family: -webkit-pictograph;  
+    text-transform: uppercase;
+}
+header .container .text button:hover
+{
+  background-color:#106eeaeb  
+}
+header .container .text p:last-of-type
+{
+   display: inline-block;
+    font-size: 20px; 
+}
+header .container .text p span:first-of-type i
+{
+  color: #106eea;
+    padding: 0px 12px;
+    font-size: 31px;
+}
+header .container .text p span:last-of-type
+{
+    
+}
+/*-----------------------------end header---------------------*/
+/*-----------------------------start card---------------------*/
+.cards
+{
+  margin: 40px 0px;
+}
+.cards .container
+{
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: nowrap;
+}
+.cards .container .card
+{
+    width: 20%;
+    box-shadow: -3px 3px 8px 1px #ddd;
+    box-sizing: border-box;
+    padding: 20px;
+    margin: 17px;  
+    
+}
+.cards .container .card:hover ,.cards .container .card:hover span
+{
+    background-color:#106eea;
+    color: white;
+    transition:0.6s all;
+}
+.cards .container .card span
+{
+     font-size: 48px;
+    color: #106eea;   
+}
+.cards .container .card h3
+{
+    
+}
+.cards .container .card p
+{
+   line-height: 2; 
+}
+/*-----------------------------end card ---------------------*/
+/*-----------------------------start about ---------------------*/
+.about
+{
+  margin: 40px 0px;
+  background-color:#c4ddff9e ;
+  /*//////////////////////////////transform: skewY(-3deg)////////////////////////////////////////////////////////////////////*/
+  clip-path: polygon(0 10%, 100% 0, 100% 86%, 0% 100%);
+}
+.about .container
+{
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: nowrap; 
+ 
+}
+.about .container .col1
+{
+  width:38%; 
+  margin: 29px 0px 
+}
+.about .container .col1 p
+{
+   line-height: 1.7;
+    padding: 16px 0px; 
+}
+.about .container .col1 button:hover
+{
+ background-color: transparent;
+ border: 1px solid #106eea;
+ color: blue
+}
+.about .container .col2
+{
+ width: 60%;
+ margin-left: 15%;
+ margin-top:60px 
+}
+.about .container .col2 div
+{
+  width: 48%;
+    display: inline-block;
+        margin-bottom: 60px;
+}
+.about .container .col2 div span
+{
+  color: #106eea;
+  font-size:30px
+}
+.about .container .col2 div p
+{
+  color:#7e7f88  
+}
+
+/*-----------------------------end about ---------------------*/
+/*-----------------------------start progress ---------------------*/
+.progress .container
+{
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+.progress .container div
+{
+  width: 48%  
+}
+.progress .container div progress
+{
+  width: 100%  
+}
+.progress .container div p
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress .container progress
+{
+    width: 46%;
+    height: 22px;
+}
+
+/*-----------------------------end  progress ---------------------*/
+/*-----------------------------start rate ---------------------*/
+.rate
+{
+ margin: 50px 0px;   
+}
+.rate .container
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+ 
+}
+.rate .container div 
+{
+      background-color: #f1f6fe;
+    text-align: center;
+    width: 23%;
+    box-sizing: border-box;
+    padding:10px;
+    margin:1px;
+    position: relative; 
+}
+.rate .container div span
+{
+  font-size: 25px;
+    position: absolute;
+    background-color: #106eea;
+    padding: 8px;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    color: white;
+    left: 40%;
+    bottom: 82%;
+    box-shadow: 0px 0px 0px 7px #fff;
+}
+/*-----------------------------end rate ---------------------*/
+/*-----------------------------start images ---------------------*/
+.image
+{
+    margin:65px 0;
+    background-color: #f6f9fe;
+    padding: 36px;
+}
+.image .container
+{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;  
+}
+.image .container div 
+{
+  width:6%   
+}
+.image .container div img
+{
+    width: 100%;
+    transition: 1s all;
+}
+.image .container img:hover
+{
+ transform: scale(1.5)
+}
+/*-----------------------------end images ---------------------*/
+/*-----------------------------start Services------------------*/
+.Services
+{
+ margin:65px 0;   
+}
+.Services .container
+{
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+.Services .text
+{
+  text-align: center; 
+}
+.Services .text>span
+{
+    background-color: #e7f1fd;
+    padding: 6px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    display: inline-block; 
+}
+.Services .text p
+{
+    font-weight: 600; 
+}
+.Services .container .service
+{
+  width: 30%;
+    border: 1px solid #e7f1fd;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 4%;
+    margin: 1%;
+    transition: 1s all;  
+}
+.Services .container .service:hover span
+{
+  border: 1px solid #3b8af2;
+   
+}
+.Services .container .service:hover
+{
+  box-shadow:0px 1px 8px 4px  #e7f1fd;
+}
+.Services .container .service span
+{
+  background-color: #e7f1fd;
+    padding: 13px;
+    font-size: 31px;
+    color: #3b8af2;
+    border-radius: 5px; 
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.Services .container .service:hover h2
+{
+  color: #3b8af2;  
+}
+
+/*-----------------------------end Services ------------------*/
+/*-----------------------------start Portfolio------------------*/
+.Portfolio
+{
+ margin:65px 0;   
+}
+.Portfolio .container
+{
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+.Portfolio .text
+{
+  text-align: center; 
+}
+.Portfolio .text>span
+{
+    background-color: #e7f1fd;
+    padding: 6px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    display: inline-block; 
+}
+.Portfolio .text p
+{
+    font-weight: 600; 
+}
+.Portfolio .text ul
+{
+   padding: 0;
+    list-style: none; 
+}
+.Portfolio .text ul li
+{
+    display: inline-block;
+    padding: 1%;
+    cursor: pointer;
+    transition:0.5s all;
+    font-weight: 600;
+}
+.Portfolio .text ul li:hover
+{
+ color: #3b8af2;
+ border-bottom: 2px solid #3b8af2;
+}
+.Portfolio .container .pro
+{
+  width: 30%;  
+}
+.Portfolio .container .pro img
+{
+  width: 100%;  
+  margin-bottom: 12px;
+}
+/*-----------------------------end Portfolio------------------*/
+
+/*--------------------start Team---------------------------*/
+.team
+{
+ margin:65px 0;   
+ background-color:#f6f9fe;
+}
+.team .container
+{
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+.team .text
+{
+  text-align: center;
+  padding-top:3.5%;
+}
+.team .text>span
+{
+    background-color: #e7f1fd;
+    padding: 6px 26px;
+    border-radius: 10px;
+    font-weight: 600;
+    display: inline-block; 
+}
+.team .text p
+{
+    font-weight: 600; 
+}
+.team .container .teams
+{
+ width: 24%;
+    background-color: white;
+    margin:5px;
+    border-radius: 5px;
+    box-shadow:0px 2px 15px rgb(16 110 234 / 15%);
+    margin-bottom: 6%;
+}
+.team .container .teams img
+{
+   width: 100% 
+}
+.team .container .teams h3
+{
+     padding-left: 5%;   
+}
+.team .container .teams p
+{
+      padding-left: 5%;
+    color:#a39d9d;
+}
+/*--------------------end Team ---------------------------*/
+/*--------------------start  Pricing---------------------------*/
+.pricing
+{
+ margin:65px 0;     
+}
+.pricing .container
+{
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+.pricing .text
+{
+  text-align: center;
+  padding-top:3%;
+}
+.pricing .text>span
+{
+    background-color: #e7f1fd;
+    padding: 6px 26px;
+    border-radius: 10px;
+    font-weight: 600;
+    display: inline-block; 
+}
+.pricing .text p
+{
+    font-weight: 600; 
+}
+.pricing .container .card
+{
+  width: 22%;
+  text-align: center;
+  border: 1px solid #ddd;
+     
+}
+.pricing .container .card h3
+{
+  background-color: #f9f9fd;
+    padding: 21px;
+   margin: 0
+}
+.pricing .container .card h2
+{   
+  color:  #106eea;  
+}
+.pricing .container .card .back
+{
+  background-color:  #106eea;
+  color: white
+}
+.pricing .container .card h2 sub
+{
+  color:#ddd;  
+}
+.pricing .container .card .line
+{
+    text-decoration: line-through;
+    color: #ddd; 
+}
+.pricing .container .card div
+{
+   background-color: #f9f9fd;
+   padding: 15px;
+}
+.pricing .container .card div button
+{
+    text-transform: capitalize;
+    font-size: 14px;
+}
+.pricing .container .card div button:hover
+{
+  background-color:#2178ebd6;   
+}
+/*--------------------end  Pricing---------------------------*/
+/*-----------------------contact-----------------------------*/
+.contact
+{
+ margin:65px 0;     
+}
+.contact .container
+{
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+}
+.contact .text
+{
+  text-align: center;
+  padding-top:3%;
+}
+.contact .text>span
+{
+    background-color: #e7f1fd;
+    padding: 6px 26px;
+    border-radius: 10px;
+    font-weight: 600;
+    display: inline-block; 
+}
+.contact .text p
+{
+    font-weight: 600; 
+}
+.contact .container .add 
+{
+    text-align: center;
+    padding:13px;
+    box-shadow: 1px 2px 12px 3px #f0f4f7;
+    color: #73787c; 
+    width:45%; 
+}
+.contact .container .add span ,.contact .container .mail span,.contact .container .call span
+{
+  font-size: 29px;
+    border: 2px dotted #106eea;
+    width: 37px;
+    height: 37px;
+    display: inline-block;
+    border-radius: 50%;
+    padding: 7px;  
+}
+.contact .container  .add span i ,.contact .container .mail span i,.contact .container .call span i
+{
+ padding:4px;
+ color:  #106eea;
+}
+.contact .container .map
+{
+  margin-top: 23px; 
+  width: 47%;
+}
+.contact .container .map iframe
+{
+    width: 100%
+}
+.contact .container div
+{
+   width: 51% 
+}
+.contact .container div form
+{
+   box-shadow: 1px 2px 12px 3px #f0f4f7;
+   padding: 15px;
+   margin-top: 4%;
+}
+.contact .container div form input
+{
+   padding: 13px;
+    margin-top: 3%;
+    border: 1px solid #ddd; 
+}
+.contact .container div form .half
+{
+    width:47%
+}
+.contact .container div form .full
+{
+    width: 95%;
+}
+.contact .container div form textarea
+{
+        margin-top: 18px;
+    border: 1px solid #ddd;    
+}
+.contact .container div form .btn
+{
+    margin: 5% 39%;
+    color: white;
+    background-color:#106eea;
+    border: none;
+    border-radius: 6px;
+    padding: 2.5%;
+    outline: none;
+}
+.contact .container .mail ,.contact .container .call
+{
+    width:22%;
+     text-align: center;
+    padding:13px;
+    box-shadow: 1px 2px 12px 3px #f0f4f7;
+    color: #73787c; 
+}
+/*----------------------end-contact-----------------------------*/
+/*------------------- start newsletter--------------------------*/
+.newsletter
+{
+  background-color: #f1f6fe;  
+  text-align: center;
+  margin-top: 45px;
+    padding:3%
+}
+.newsletter .container form
+{
+  position: relative;  
+}
+.newsletter .container input:first-of-type
+{
+   width:50%;
+   padding: 10px;
+   border: none;
+   outline: none;
+   box-shadow: 1px 2px 12px 3px #2269c726;
+}
+.newsletter .container input:last-of-type
+{
+    position: absolute;
+    bottom: 0%;
+    right: 25%;
+    padding: 10px 31px;
+    color: #f4fafa;
+    background-color: #106eea;
+    outline: none;
+    border: none;
+}
+/*------------------- end newsletter--------------------------*/
+/*------------------- start footer--------------------------*/
+ footer
+{
+  margin-top:3%  ;
+  color: #8f8f93;
+}
+ footer .container
+{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between
+}
+footer .container a
+{
+    text-decoration: none;
+    color:#8f8f93;
+}
+footer .container a:hover
+{
+    color:  #106eea
+}
+footer .container span
+{
+  color:  #106eea
+}
+footer .container .icon span
+{
+  font-size: 40px;
+    padding:3px;  
+}
+footer .container .icon p:last-of-type
+{
+    margin-top: 49px;
+    
+}
+footer .last
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f6f6f7;
+}
+footer .last p
+{
+    padding: 15px 7%;
+}
+/*------------------- end footer--------------------------*/
