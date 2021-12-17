@@ -1,12 +1,3 @@
-# first-website![6](https://user-images.githubusercontent.com/72953453/146562016-df742b3c-ed50-45b1-a08c-b85c4826825b.png)
-![7](https://user-images.githubusercontent.com/72953453/146562027-dd4b70d9-f0b4-4ab6-aa75-1d27d8eadfb7.png)
-![8](https://user-images.githubusercontent.com/72953453/146562037-28f423b8-1907-47fe-bd2c-65811f3d6d2d.png)
-![9](https://user-images.githubusercontent.com/72953453/146562049-bd58de95-79fe-4e87-9e90-f110f38076ea.png)
-![10](https://user-images.githubusercontent.com/72953453/146562055-0aa9fd94-aac8-4be4-8dde-09894530dcd0.png)
-![11](https://user-images.githubusercontent.com/72953453/146562062-a54e986d-ccfa-411f-92d6-ee5c4d063ad8.png)
-![12](https://user-images.githubusercontent.com/72953453/146562065-c4ec0ee8-0cfc-419c-9898-a0d87fa687a4.png)
-![33](https://user-images.githubusercontent.com/72953453/146562072-eb3b7742-ea39-459c-84e9-dbd9d96aede5.png)
-![44](https://user-images.githubusercontent.com/72953453/146562074-a2f33401-4697-4169-8707-52125f8b7be7.png)
-![111](https://user-images.githubusercontent.com/72953453/146562079-af667eea-41c6-4ecf-b994-9cc76d70ebe2.png)
-![222](https://user-images.githubusercontent.com/72953453/146562099-3a960bce-04b5-44ce-980f-dbf388867189.png)
+# first-website
+![screencapture-file-Users-shehab-Desktop-hager-project-first-website-demo-html-2021-12-17-20_31_13](https://user-images.githubusercontent.com/72953453/146591549-076eb4ae-7e02-4d48-8891-fc0973e4f24c.png)
 
